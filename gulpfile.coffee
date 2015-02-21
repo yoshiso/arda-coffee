@@ -6,7 +6,6 @@ jade   = require 'gulp-react-jade'
 
 gulp.task 'default', ['build']
 gulp.task 'build', [
-  'build:ts'
   'build:coffee'
   'build:jade'
   'build:css'
